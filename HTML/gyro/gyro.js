@@ -20,8 +20,8 @@ function on_acc_data_uab(e)
 	var rot_x = Math.atan(acc.y/ acc.z) * 180 / Math.PI;
 	
 	document.getElementById("id_rot_x").innerHTML = Math.round(rot_x *100)/100;
-	document.getElementById("id_rot_y").innerHTML = Math.round(rot_x *100)/100;
-	document.getElementById("id_rot_z").innerHTML = Math.round(rot_x *100)/100;
+	document.getElementById("id_rot_y").innerHTML = Math.round(rot_y *100)/100;
+	document.getElementById("id_rot_z").innerHTML = Math.round(rot_z *100)/100;
 	
 }
 

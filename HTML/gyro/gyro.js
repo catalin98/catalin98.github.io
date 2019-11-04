@@ -12,9 +12,9 @@ function on_gyro_data_uab(e)
 }
 function on_acc_data_uab(e)
 {   var acc = e.accelerationIncludingGravity;
-	document.getElementById("id_acc_x").innerHTML = Math.round(acc.x *100 )/100
-	document.getElementById("id_acc_y").innerHTML = Math.round(acc.y *100 )/100
-	document.getElementById("id_acc_z").innerHTML = Math.round(acc.z *100 )/100
+	document.getElementById("id_acc_x").innerHTML = Math.round(acc.x *100 )/100;
+	document.getElementById("id_acc_y").innerHTML = Math.round(acc.y *100 )/100;
+	document.getElementById("id_acc_z").innerHTML = Math.round(acc.z *100 )/100;
 	
 	var rot_x = Math.atan(acc.x/ acc.z) * 180 / Math.PI;
 	var rot_x = Math.atan(acc.y/ acc.z) * 180 / Math.PI;

@@ -38,7 +38,7 @@ document.getElementById("id_stop").disabled=false;
 	muncitor.onmessage = function(e){
 		document.getElementById("id_prime").innerHTML =e.data;
 	}
-	muncitor.postMessage("gata");
+	}
 	else muncitor.postMessage("start")
 }
 

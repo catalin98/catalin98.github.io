@@ -29,7 +29,7 @@ function desenare(unghi)
 
 function start()
 {  document.getElementById("id_start").disable=true;
-document.getElementById("id_start").disable=false;
+document.getElementById("id_stop").disable=false;
 	
 	timer_id= setInterval(desenare, 20, unghi);
 	var muncitor = new Worker("prime.js");

@@ -28,8 +28,8 @@ function desenare(unghi)
 }
 
 function start()
-{  document.getElementById("id_start").disable=true;
-document.getElementById("id_stop").disable=false;
+{  document.getElementById("id_start").disabled=true;
+document.getElementById("id_stop").disabled=false;
 	
 	timer_id= setInterval(desenare, 20, unghi);
 	var muncitor = new Worker("prime.js");
@@ -39,7 +39,7 @@ document.getElementById("id_stop").disable=false;
 }
 
 function stop()
-{document.getElementById("id_start").disable=false;
-document.getElementById("id_stop").disable=true;
+{document.getElementById("id_start").disabled=false;
+document.getElementById("id_stop").disabled=true;
 	clearInterval(timer_id);
 }

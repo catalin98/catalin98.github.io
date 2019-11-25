@@ -41,5 +41,5 @@ document.getElementById("id_start").disable=false;
 function stop()
 {document.getElementById("id_start").disable=false;
 document.getElementById("id_stop").disable=true;
-	
+	clearInterval(timer_id);
 }

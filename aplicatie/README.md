@@ -6,4 +6,4 @@ Descriere:aplicatia afiseaza o harta si ne indica punctul spre care suntem orien
 
 Tehnologii folosite:HTML5,javascript.
 
-![](https://github.com/catalin98/catalin98.github.io/blob/master/imagini/2020-02-03_8-35-48.png)
+![](https://github.com/catalin98/catalin98.github.io/blob/master/imagini/83943700_1028716630839913_195607001231785984_n.jpg)
